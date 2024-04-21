@@ -1,0 +1,16 @@
+{
+  "header-title":"歡迎來到我的專案",
+  "header-content":"科技與人文搭起一座橋樑豐富每個人的生活、讓每個人找到共鳴。",
+
+  "navigation-about":"關於我",
+  "navigation-project":"作品",
+  "navigation-contact":"聯絡我",
+
+  "project":{
+    "text_1":"作品概念",
+    "text_2":"使用的語言",
+    "title":"練習集合"
+  },
+
+  "contact":"謝禎庭"
+}

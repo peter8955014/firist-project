@@ -1,0 +1,61 @@
+@mixin input-focus-animation($scale, $x-translate) {
+  &:focus {
+    transform: scale($scale);
+
+    /* 输入框放大 */
+    &+.input-box_icon {
+      transform: translateX($x-translate);
+      /* 图标在 X 轴上移动 */
+    }
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px); /* 初始状态向上位移 20px */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* 结束状态回到原位 */
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* 初始状态向下位移 20px */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* 结束状态回到原位 */
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes auto-slide {
+  0% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+  25% {
+    opacity: 1;
+    transform: translateX(200px);
+  }
+  75% {
+    opacity: 1;
+    transform: translateX(400px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(600px);
+  }
+}

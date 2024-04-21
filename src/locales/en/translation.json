@@ -1,0 +1,17 @@
+{
+  "header-title":"Welcome to my Project",
+  "header-content":"Technology and the humanities build a bridge to enrich everyone's life and let everyone find resonance.",
+
+  "navigation-about":"About",
+  "navigation-project":"Project",
+  "navigation-contact":"Contact",
+
+  "project":{
+    "text_1":"Concept of work",
+    "text_2":"Language used",
+    "title":"Practice Project"
+  },
+
+  "contact":"Xie Zhen Ting"
+
+}
